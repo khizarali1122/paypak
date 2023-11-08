@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    font-size: 16px;
+    color: #222;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p{
+    margin: 0 0 10px 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(60, 24, 94);
+}
+a:hover{
+    opacity: .8;
+}
+/***********************/
+/**** typography */
+/***********************/
+.text-medium{
+    font-size: 18px;
+}
+.text-large{
+    font-size: 40px;
+}
+.text-xlarge{
+    font-size: 50px;
+}
+h1, .h1{
+    font-size: 36px;
+} 
+h2, .h2{
+    font-size: 32px;
+}
+h3, .h3{
+    font-size: 28px;
+}
+h4, .h4{
+    font-size: 24px;
+}
+h5, .h5{
+    font-size: 20px;
+}
+h6, .h6{
+     font-size: 16px;
+}
+@media(max-width:768px){
+    .text-medium{
+        font-size: 14px;
+    }
+    .text-large{
+        font-size: 36px;
+    }
+    .text-xlarge{
+        font-size: 46px;
+    }
+    h1, .h1{
+        font-size: 32px;
+    } 
+    h2, .h2{
+        font-size: 28px;
+    }
+    h3, .h3{
+        font-size: 24px;
+    }
+    h4, .h4{
+        font-size: 20px;
+    }
+    h5, .h5{
+        font-size: 16px;
+    }
+    h6, .h6{
+        font-size: 12px;
+    }
+}
+.text-small{
+    font-size: 12px;
+}
+.text-primary{
+    color: #35155D;
+}
+.text-secondary{
+    color: #512B81;
+}
+.text-warning{
+    color: #FF9B50;
+}
+.text-danger{
+    color: #C63D2F;
+}
+ text-success{
+    color: #A6FF96;
+}
+.text-info{
+    color: #8CABFF;
+}
+.text-white{
+    color: #fff;
+}
+.text-light{
+    color: #eee;
+}
+.text-black{
+    color: #000;
+}
+.text-grey{
+    color: #282727;
+}
+.bg-primary{
+    background-color: #35155D;
+}
+.bg-secondary{
+    background-color: #512B81;
+}
+.bg-warning{
+    background-color: #FF9B50;
+}
+.bg-danger{
+    background-color: #C63D2F;
+}
+.bg-success{
+    background-color: #A6FF96;
+}
+.bg-info{
+    background-color: #8CABFF;
+}
+.bg-white{
+    background-color: #fff;
+}
+.bg-light{
+    background-color: #eee;
+}
+.bg-black{
+    background-color: #000;
+}
+.bg-grey{
+    background-color: #282727;
+}
+ /***********************/
+/**** alignments */
+/***********************/
+.text-strat{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-end{
+    text-align: right;
+}
+.text-justify{
+    text-align: justify;
+}
+.text-lowecase{
+    text-transform: lowercase;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+.text-capitalize{
+    text-transform: capitalize;
+}
+.fw-bold{
+    font-weight: 900;
+}
+/***********************/
+/**** images classess */
+/***********************/
+img{
+    max-width: 100%;
+    height: auto;
+}
+.rounded-4{
+    border-radius: 4px;
+}
+.rounded-10{
+    border-radius: 10px;
+}
+.rounded-circle{
+    border-radius: 50%;
+}
+/***********************/
+/**** border classess */
+/***********************/
+.border{
+    border: 1px solid #ccc;
+}
+.border-top{
+    border-top: 1px solid #ccc;
+}
+.border-right{
+    border-right: 1px solid #ccc;
+}
+.border-bottom{
+    border-bottom: 1px solid #ccc;
+}
+.border-left{
+    border-left: 1px solid #ccc;
+}
+/***********************/
+/**** margin classess */
+/***********************/
+.m-0{
+    margin: 0;
+}
+.mt-5{
+    margin-top: 5px;
+}
+.mr-5{
+    margin-right: 5px;
+}
+.mb-5{
+    margin-bottom: 5px;
+}
+.ml-5{
+    margin-left: 5px;
+}
+.m-5{
+    margin: 5px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+ .ml-10{
+    margin-left: 10px;
+}
+.m-10{
+    margin: 10px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mr-20{
+    margin-right: 20px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.ml-20{
+    margin-left: 20px;
+}
+.m-20{
+    margin: 20px;
+}
+.m-auto{
+    margin: 0 auto;
+}
+.ml-auto{
+    margin-left: auto;
+}
+.mr-auto{
+    margin-right: auto;
+}
+/***********************/
+/**** padding classess */
+/***********************/
+.p-0{
+    padding: 0;
+}
+.pt-5{
+    padding-top: 5px;
+}
+.pr-5{
+    padding-right: 5px;
+}
+.pb-5{
+    padding-bottom: 5px;
+}
+.pl-5{
+    padding-left: 5px;
+}
+ .p-5{
+    padding: 5px;
+}
+.pt-10{
+    padding-top: 10px;
+}
+.pr-10{
+    padding-right: 10px;
+}
+.pb-10{
+    padding-bottom: 10px;
+}
+.pl-10{
+    padding-left: 10px;
+}
+.p-10{
+    padding: 10px;
+}
+.pt-20{
+    padding-top: 20px;
+}
+.pr-20{
+    padding-right: 20px;
+}
+.pb-20{
+    padding-bottom: 20px;
+}
+.pl-20{
+    padding-left: 20px;
+}
+.p-20{
+    padding: 20px;
+}
+ /***********************/
+/*** display classess **/
+/***********************/
+.container-fluid{
+    max-width: 100%;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.d-flex, .row{
+    display: flex;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.d-block{
+    display: block;
+}
+.d-inline{
+    display: inline;
+}
+.align-items-start{
+    align-items: start;
+}
+.align-items-center{
+    align-items: center;
+}
+.align-items-end{
+    align-items: end;
+}
+.justify-content-start{
+    justify-content: start;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-end{
+    justify-content: end;
+}
+.col-lg-3{
+    width: 25%;
+}
+.col-lg-12{
+    width: 100%;
+}
+.col-lg-6{
+    width: 50%;
+}
+ /***********************/
+/*** common classess **/
+/***********************/
+.list-unstyled{
+    list-style-type: none;
+}
+.w-100{
+    width: 100%;
+}
+.w-75{
+    width: 75%;
+}
+.w-25{
+    width: 25%;
+}
+.h-100{
+    height: 100%;
+}
+section{
+    padding: 50px 0;
+}
+/***********************/
+/**** header Classes */
+/***********************/
+header{
+    height: 100vh;
+}
+header nav{
+    align-items: center;
+}
+header nav ul{
+    padding: 0;
+}
+header nav ul li {
+    margin: 0 20px;
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: green;
+    font-size: 20px;
+}
+
+header .hero{
+    height: calc(100v - 96px)
+   
+}
+ 
+header .hero .hero_wrapper{
+    height: 100%;
+    align-items: center;
+}
+header .hero h1{
+    padding: 20px;
+    position: relative;
+    text-align: left;
+}
+   
